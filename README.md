@@ -2,4 +2,6 @@ This is an test framework created to perform Automated Accpetance Test for Weath
 
 Software required to run are: IDE (Webstrome, Visual-Studio  etc.) WebdriverIo, Cucumber, NodeVerion 10
 
-The Testsuite can be executed from commandline as well as from IDE. From Terminal npm run test
+The Testsuite can be executed from commandline as well as from IDE. 
+
+Command for executing featureFiles : npm run test

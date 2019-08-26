@@ -1,0 +1,22 @@
+Feature: As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully
+  Scenario Outline: Verify the whetherForecast data
+    When I open the url <URL>
+    When I enter the <cityName> for whetherforecast
+    Then I should get all whether information for <NoOfDays>
+    Then I should able to select a Dayasd
+   # And Abel to get <NoOfHourly> forecast data
+    And I should able to get all correct Maximum Temp
+
+   # Then Again select day
+   #And I should able to hide forecast data
+    #And Daily forecast should be able to summarise the <NoOfHours> data
+#    Then I should able to get Most dominant (or current) condition
+#    Then Most dominant (or current) wind speed and direction in rounded values
+#    Then I should able to get Aggregate rainfall in rounded values
+#    Then I should able to get Minimum and maximum temperatures in rounded values
+#
+
+
+    Examples:
+      |URL                   | cityName    | NoOfDays |NoOfHourly|NoOfHourly|NoOfHours|
+      |http://localhost:3000/| Perth       | 5        |3         |3         |3        |

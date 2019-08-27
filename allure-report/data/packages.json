@@ -1,0 +1,21 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully",
+    "children" : [ {
+      "name" : "Verify the whetherForecast Application whether use can able to lunch the application or not",
+      "uid" : "bbe3edf1473acd0a",
+      "parentUid" : "5d99d270369c9bf459f9b8cfdd3b6dc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566903443182,
+        "stop" : 1566903456994,
+        "duration" : 13812
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "5d99d270369c9bf459f9b8cfdd3b6dc2"
+  } ]
+}

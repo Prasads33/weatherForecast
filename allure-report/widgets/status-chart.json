@@ -1,0 +1,11 @@
+[ {
+  "uid" : "bbe3edf1473acd0a",
+  "name" : "Verify the whetherForecast Application whether use can able to lunch the application or not",
+  "time" : {
+    "start" : 1566903443182,
+    "stop" : 1566903456994,
+    "duration" : 13812
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

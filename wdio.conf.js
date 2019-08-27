@@ -123,7 +123,12 @@ exports.config = {
     //
     // The number of times to retry the entire specfile when it fails as a whole
     // specFileRetries: 1,
-    reporters: ['spec'],
+    reporters: ['spec',['allure', {
+        outputDir: './Results',
+        disableWebdriverStepsReporting: true,
+        disableWebdriverScreenshotsReporting: true,
+        useCucumberStepReporter: true
+    }]],
 
 
     // Test reporter for stdout.
@@ -144,7 +149,7 @@ exports.config = {
         source: true,       // <boolean> hide source uris
         profile: [],        // <string[]> (name) specify the profile to use
         strict: false,      // <boolean> fail if there are any undefined or pending steps
-        tagExpression: '@test4',  // <string> (expression) only execute the features or scenarios with tags matching the expression
+        tagExpression: '@Test1',  // <string> (expression) only execute the features or scenarios with tags matching the expression
         timeout: 600000,     // <number> timeout for step definitions
         ignoreUndefinedDefinitions: false, // <boolean> Enable this config to treat undefined definitions as warnings.
     },

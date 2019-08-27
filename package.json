@@ -33,6 +33,7 @@
     "chromedriver": "^76.0.0",
     "wdio-chromedriver-service": "^5.0.2",
     "wdio-html-format-reporter": "^0.2.9",
-    "wdio-mochawesome-reporter": "^3.2.0"
+    "wdio-mochawesome-reporter": "^3.2.0",
+    "@wdio/allure-reporter": "^5.0.0"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Verify the whetherForecast Application whether use can able to lunch the application or not",
+    "uid" : "bbe3edf1473acd0a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1566903443182,
+      "stop" : 1566903456994,
+      "duration" : 13812
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  } ]
+}

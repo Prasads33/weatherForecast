@@ -10,7 +10,8 @@ command for executing featureFiles : npm run test
 As Automation tester, Automated all scenarios with WDIO nodejs
 
 Observations/Reports:
-While testing the app, As a tester my observations in currnet application
+
+While testing the app, As a tester my observations for application
 1)Without passing any city name expectation is Error Message :("Error retrieving the forecast"), 
 however in actual case scenario by default "Glasgow" string is getting after entering a blank " " string.
 

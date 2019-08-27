@@ -151,7 +151,7 @@ class whetherPage {
 
         console.log('valueDominantCondition--->', valueDominantCondition)
         console.log('MostDominantCondition--->', MostDominantCondition)
-        //assert.strictEqual(valueDominantCondition,MostDominantCondition,"Most dominant constion is not matching")
+        assert.strictEqual(valueDominantCondition,MostDominantCondition,"Most dominant constion is not matching")
     }
 
     DominantConditionWind(day){
@@ -181,7 +181,7 @@ class whetherPage {
 
         console.log('valueDominantConditionWind--->', valueDominantConditionWind)
         console.log('MostDominantConditionWind--->', MostDominantConditionWind)
-        assert.strictEqual(valueDominantConditionWind,MostDominantConditionWind,"Most dominant constion is not matching")
+        assert.strictEqual(valueDominantConditionWind,MostDominantConditionWind,"Most dominant whConstion is not matching")
     }
 
     summariseWeather(day){

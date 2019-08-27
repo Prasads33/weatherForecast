@@ -77,6 +77,6 @@ Then(/^user should see 3hourly forcast for that "([^"]*)"$/, function (day) {
      whetherPage.maxTempCheck(day);
      whetherPage.minTempCheck(day);
      whetherPage.aggRainfallCheck(day);
-    //whetherPage.DominantCondition(day);
-    //whetherPage.DominantConditionWind(day);
+    whetherPage.DominantCondition(day);
+    whetherPage.DominantConditionWind(day);
     });

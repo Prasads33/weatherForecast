@@ -8,13 +8,13 @@ Feature: Daily forecast should summarise the 3 hour data:
 
   @weather
   Scenario Outline: Weather app test
-    When I open the url <URL>
+    When I open the url http://localhost:3000/
     Then I should able to select a <day>
     Then user should see 3hourly forcast for that "<day>"
 
     Examples:
-      | day  |URL|
-      | 1 |http://localhost:3000/|
-      | 2 |http://localhost:3000/|
-      | 3 |http://localhost:3000/|
-      | 4 |http://localhost:3000/|
+      | day|
+      | 1 |
+      | 2 |
+      | 3 |
+      | 4 |

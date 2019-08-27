@@ -1,4 +1,4 @@
-This is an test automationframework created to perform Automated Accpetance Test for WeatherForecast Application is available on github and clone from https://github.com/buildit/acceptance-testing The test execution requires the weather application to run on local host at port 3000
+This is an test automationframework created to perform automated accpetance test for WeatherForecast application is available on github and clone it from https://github.com/buildit/acceptance-testing The test execution requires the weather application to run on local host at port 3000
 
 AutomationFramework :WebdriverIo
 Language: NodeJs,JavaScripts

@@ -21,6 +21,7 @@
     "mochawesome-report-generator": "^4.0.1",
     "moment": "^2.24.0",
     "pngjs": "^3.4.0",
+    "wdio": "^3.0.3",
     "wdio-cucumber-framework": "^2.2.8",
     "wdio-dot-reporter": "0.0.10",
     "webdriverio": "^5.12.4"

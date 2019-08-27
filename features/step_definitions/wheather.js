@@ -73,10 +73,14 @@ Then(/^Status of hourly forecast should be hidden for "([^"]*)"$/, function (day
     });
 
 Then(/^user should see 3hourly forcast for that "([^"]*)"$/, function (day) {
-     whetherPage.summariseWeather(day);
-     whetherPage.maxTempCheck(day);
-     whetherPage.minTempCheck(day);
-     whetherPage.aggRainfallCheck(day);
-    whetherPage.DominantCondition(day);
-    whetherPage.DominantConditionWind(day);
+    //  whetherPage.summariseWeather(day);
+    //  whetherPage.maxTempCheck(day);
+    //  whetherPage.minTempCheck(day);
+    //  whetherPage.aggRainfallCheck(day);
+     whetherPage.DominantCondition(day);
+   // whetherPage.DominantConditionWind(day);
+    });
+
+    Then(/^I should be able to launch the application with header "([^"]*)"$/, function (text) {
+            whetherPage.TextEqual(text);
     });

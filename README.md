@@ -8,6 +8,8 @@ Software required to run are: IDE (Webstrome, Visual-Studio  etc.) WdIo,nodeVeri
 The Testsuite can be executed from commandline as well as from IDE. 
 
 command for executing featureFiles : npm run test
+For generating report : allure generate ./Results 
+For cleaning the report : allure generate ./Results --clean
 
 ----------------------------------------------------------------
 As Automation tester, Automated all scenarios with WDIO nodejs
@@ -36,3 +38,5 @@ Expexted : User should be able to get 3 hours summeries weatherForecast data wit
 Actual : User is getting "1" which is not expected most_dominant Wind conditions.
     
 Note: Above mentioned scenarios been observed by "https://github.com/buildit/acceptance-testing" UserStory.
+
+

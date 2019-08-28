@@ -56,8 +56,8 @@ class whetherPage {
             }
             console.log('Array list maxTempCheck',arr)
             const maximumTempList = Math.max(...arr).toString();;
-        console.log('----maximumTempList---',typeof maximumTempList,'---');
-        console.log('----DailyForcastTemp--',typeof DailyForcastTemp,'---')
+        console.log('----maximumTempList---', maximumTempList,'---');
+        console.log('----DailyForcastTemp--', DailyForcastTemp,'---')
             assert.strictEqual(maximumTempList,DailyForcastTemp,'Maximum temp calculation logic is incorrect')
             console.log('maximumTempList',maximumTempList);
 
@@ -108,15 +108,15 @@ class whetherPage {
          const size1=$$(`#root > div > div:nth-child(${child}) > div.details > div.detail`).length
          var arr=[];
          for(let i=1;i<size1+1;i++){
-             const text=$((`#root > div > div:nth-child(${child}) > div.details > div:nth-child(${i}) > span:nth-child(3) > span.max`)).getText();
+             const text=$((`#root > div > div:nth-child(${child}) > div.details > div:nth-child(${i}) > span:nth-child(3) > span.min`)).getText();
             console.log('list>>',text);
             const temp=text.substring(0,text.length-1)
             console.log(temp)
             arr.push(temp);
         }
         const minimumTempList = Math.min(...arr).toString();
-        console.log('----minimumTempList---',typeof minimumTempList,'---');
-        console.log('----DailyForcastMinTemp--',typeof DailyForcastMinTemp,'---')
+        console.log('----minimumTempList---', minimumTempList,'---');
+        console.log('----DailyForcastMinTemp--',DailyForcastMinTemp,'---')
         assert.strictEqual(minimumTempList,DailyForcastMinTemp,'Maximum temp calculation logic is incorrect')
         //console.log('maximumTempList',maximumTempList);
 

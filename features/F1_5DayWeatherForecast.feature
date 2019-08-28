@@ -66,3 +66,4 @@ Feature: As a whetherForecast service provider, I should be able to fetch the wh
       | 2   |
       | 3   |
       | 4   |
+      |5    |

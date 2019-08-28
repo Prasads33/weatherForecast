@@ -3,13 +3,12 @@ This is an test automationframework created to perform automated accpetance test
 AutomationFramework :WebdriverIo
 Language: NodeJs,JavaScripts
 
-Software required to run are: IDE (Webstrome, Visual-Studio  etc.) WdIo,nodeVerion 10
-
 The Testsuite can be executed from commandline as well as from IDE. 
 
 command for executing featureFiles : npm run test
 For generating report : allure generate ./Results 
 For cleaning the report : allure generate ./Results --clean
+
 
 ----------------------------------------------------------------
 As Automation tester, Automated all scenarios with WDIO nodejs

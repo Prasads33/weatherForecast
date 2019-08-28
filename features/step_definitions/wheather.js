@@ -84,3 +84,7 @@ Then(/^user should see 3hourly forcast for that "([^"]*)"$/, function (day) {
     Then(/^I should be able to launch the application with header "([^"]*)"$/, function (text) {
             whetherPage.TextEqual(text);
     });
+
+    Then(/^I should be able to launch the application with header1 "([^"]*)"$/, function (text) {
+        whetherPage.TextEqual2(text);
+    });

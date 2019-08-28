@@ -10,11 +10,22 @@ Feature: As a whetherForecast service provider, I should be able to fetch the wh
     Examples:
       | cityName  |
       | aberdeen  |
-      | dundee    |
-      | edinburgh |
-      | glasgow   |
-      | perth     |
-      | stirling  |
+#      | dundee    |
+#      | edinburgh |
+#      | glasgow   |
+#      | perth     |
+#      | stirling  |
+      #| delhi     |
+
+    @testt2Nagative
+  Scenario Outline: Verify the whetherForecast Application whether use can able to lunch the application or not
+    When I open the url http://localhost:3000/
+    When I enter the <cityName> for whetherforecast
+      Then I should be able to launch the application with header1 "Error retrieving the forecast"
+
+      Examples:
+        | cityName  |
+        | delhi     |
 
   @test2
   Scenario Outline: Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours.
@@ -30,7 +41,7 @@ Feature: As a whetherForecast service provider, I should be able to fetch the wh
       | 2   |
       | 3   |
       | 4   |
-
+      | 5   |
   @test3
 
   Scenario Outline: Verify that user can able to collapse the forecast data.
@@ -46,7 +57,7 @@ Feature: As a whetherForecast service provider, I should be able to fetch the wh
       | 2   |
       | 3   |
       | 4   |
-
+      | 5   |
   @test4
   #  Most dominant (or current) condition
   #  Most dominant (or current) wind speed and direction
@@ -66,4 +77,6 @@ Feature: As a whetherForecast service provider, I should be able to fetch the wh
       | 2   |
       | 3   |
       | 4   |
-      |5    |
+      | 5   |
+
+

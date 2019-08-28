@@ -250,8 +250,9 @@ class whetherPage {
     }
 
     SelectElement(day){
-       this.Day.isDisplayed()
-       $(`[data-test='day-${day}']`).click();
+       this.Day.isDisplayed();
+        $(`[data-test='day-${day}']`).click();
+
         browser.pause(800)
     }
 
@@ -275,9 +276,16 @@ class whetherPage {
 
     TextEqual(text){
        let headerText = $('#root > div > h1').getText()
-        console.log('headerText----',typeof headerText)
+        console.log('headerText----', headerText)
         assert.strictEqual(headerText,text,'You have landed in wrong page')
     }
+
+    TextEqual2(text){
+        let headerText = $('#root > div > div').getText()
+        console.log('headerText----', headerText)
+        assert.strictEqual(headerText,text,'You have landed in wrong page')
+    }
+
 
 
 

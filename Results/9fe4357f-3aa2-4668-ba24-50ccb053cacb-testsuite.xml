@@ -1,0 +1,1842 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1567028616629' stop='1567028825041'>
+    <name>As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully</name>
+    <title>As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully</title>
+    <test-cases>
+        <test-case start='1567028616640' status='passed' stop='1567028619738'>
+            <name>Verify the whetherForecast Application whether user can able to lunch the application for mentioned city</name>
+            <title>Verify the whetherForecast Application whether user can able to lunch the application for mentioned city</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567028616643' status='passed' stop='1567028617277'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028617278' status='passed' stop='1567028617323'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028617323' status='passed' stop='1567028619737'>
+                    <name>When I enter the aberdeen for whetherforecast</name>
+                    <title>When I enter the aberdeen for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567028619738' status='passed' stop='1567028622295'>
+            <name>Verify the whetherForecast Application whether user can able to lunch the application for mentioned city</name>
+            <title>Verify the whetherForecast Application whether user can able to lunch the application for mentioned city</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567028619739' status='passed' stop='1567028620054'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028620054' status='passed' stop='1567028620079'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028620079' status='passed' stop='1567028622294'>
+                    <name>When I enter the dundee for whetherforecast</name>
+                    <title>When I enter the dundee for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567028622295' status='passed' stop='1567028625099'>
+            <name>Verify the whetherForecast Application whether user can able to lunch the application for mentioned city</name>
+            <title>Verify the whetherForecast Application whether user can able to lunch the application for mentioned city</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567028622296' status='passed' stop='1567028622574'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028622575' status='passed' stop='1567028622601'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028622601' status='passed' stop='1567028625099'>
+                    <name>When I enter the edinburgh for whetherforecast</name>
+                    <title>When I enter the edinburgh for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567028625100' status='passed' stop='1567028627688'>
+            <name>Verify the whetherForecast Application whether user can able to lunch the application for mentioned city</name>
+            <title>Verify the whetherForecast Application whether user can able to lunch the application for mentioned city</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567028625100' status='passed' stop='1567028625372'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028625372' status='passed' stop='1567028625405'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028625405' status='passed' stop='1567028627687'>
+                    <name>When I enter the glasgow for whetherforecast</name>
+                    <title>When I enter the glasgow for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567028627688' status='passed' stop='1567028630173'>
+            <name>Verify the whetherForecast Application whether user can able to lunch the application for mentioned city</name>
+            <title>Verify the whetherForecast Application whether user can able to lunch the application for mentioned city</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567028627689' status='passed' stop='1567028627950'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028627950' status='passed' stop='1567028627969'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028627969' status='passed' stop='1567028630172'>
+                    <name>When I enter the perth for whetherforecast</name>
+                    <title>When I enter the perth for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567028630174' status='passed' stop='1567028632870'>
+            <name>Verify the whetherForecast Application whether user can able to lunch the application for mentioned city</name>
+            <title>Verify the whetherForecast Application whether user can able to lunch the application for mentioned city</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567028630175' status='passed' stop='1567028630476'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028630476' status='passed' stop='1567028630501'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028630501' status='passed' stop='1567028632868'>
+                    <name>When I enter the stirling for whetherforecast</name>
+                    <title>When I enter the stirling for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567028632871' status='passed' stop='1567028635322'>
+            <name>Verify the whetherForecast Applicif user enter incorrect city name then user should get error message</name>
+            <title>Verify the whetherForecast Applicif user enter incorrect city name then user should get error message</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567028632872' status='passed' stop='1567028633173'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028633173' status='passed' stop='1567028635299'>
+                    <name>When I enter the delhi for whetherforecast</name>
+                    <title>When I enter the delhi for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028635299' status='passed' stop='1567028635321'>
+                    <name>Then I should be able to launch the application with header1 "Error retrieving the forecast"</name>
+                    <title>Then I should be able to launch the application with header1 "Error retrieving the forecast"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567028635322' status='passed' stop='1567028638997'>
+            <name>Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours.</name>
+            <title>Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567028635322' status='passed' stop='1567028635600'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028635600' status='passed' stop='1567028635623'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028635623' status='passed' stop='1567028637929'>
+                    <name>When I enter the stirling for whetherforecast</name>
+                    <title>When I enter the stirling for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028637929' status='passed' stop='1567028638066'>
+                    <name>Then I should able to select 1</name>
+                    <title>Then I should able to select 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028638066' status='passed' stop='1567028638997'>
+                    <name>Then User should able to expand the data and get after every three hourly forecast data"1"</name>
+                    <title>Then User should able to expand the data and get after every three hourly forecast data"1"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567028638997' status='passed' stop='1567028648216'>
+            <name>Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours.</name>
+            <title>Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567028638998' status='passed' stop='1567028639326'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028639326' status='passed' stop='1567028639347'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028639347' status='passed' stop='1567028641678'>
+                    <name>When I enter the stirling for whetherforecast</name>
+                    <title>When I enter the stirling for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028641678' status='passed' stop='1567028646955'>
+                    <name>Then I should able to select 2</name>
+                    <title>Then I should able to select 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028646955' status='passed' stop='1567028648214'>
+                    <name>Then User should able to expand the data and get after every three hourly forecast data"2"</name>
+                    <title>Then User should able to expand the data and get after every three hourly forecast data"2"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567028648216' status='passed' stop='1567028653246'>
+            <name>Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours.</name>
+            <title>Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567028648217' status='passed' stop='1567028648890'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028648890' status='passed' stop='1567028648943'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028648943' status='passed' stop='1567028651549'>
+                    <name>When I enter the stirling for whetherforecast</name>
+                    <title>When I enter the stirling for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028651550' status='passed' stop='1567028652178'>
+                    <name>Then I should able to select 3</name>
+                    <title>Then I should able to select 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028652178' status='passed' stop='1567028653245'>
+                    <name>Then User should able to expand the data and get after every three hourly forecast data"3"</name>
+                    <title>Then User should able to expand the data and get after every three hourly forecast data"3"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567028653246' status='passed' stop='1567028657087'>
+            <name>Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours.</name>
+            <title>Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567028653247' status='passed' stop='1567028653548'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028653548' status='passed' stop='1567028653573'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028653573' status='passed' stop='1567028655901'>
+                    <name>When I enter the stirling for whetherforecast</name>
+                    <title>When I enter the stirling for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028655901' status='passed' stop='1567028656034'>
+                    <name>Then I should able to select 4</name>
+                    <title>Then I should able to select 4</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028656034' status='passed' stop='1567028657086'>
+                    <name>Then User should able to expand the data and get after every three hourly forecast data"4"</name>
+                    <title>Then User should able to expand the data and get after every three hourly forecast data"4"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567028657087' status='passed' stop='1567028660886'>
+            <name>Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours.</name>
+            <title>Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567028657087' status='passed' stop='1567028657353'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028657354' status='passed' stop='1567028657378'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028657378' status='passed' stop='1567028659697'>
+                    <name>When I enter the stirling for whetherforecast</name>
+                    <title>When I enter the stirling for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028659697' status='passed' stop='1567028659821'>
+                    <name>Then I should able to select 5</name>
+                    <title>Then I should able to select 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028659821' status='passed' stop='1567028660886'>
+                    <name>Then User should able to expand the data and get after every three hourly forecast data"5"</name>
+                    <title>Then User should able to expand the data and get after every three hourly forecast data"5"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567028660887' status='passed' stop='1567028664688'>
+            <name>Verify that user can able to hidden the forecast data.</name>
+            <title>Verify that user can able to hidden the forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567028660887' status='passed' stop='1567028661152'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028661152' status='passed' stop='1567028661179'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028661179' status='passed' stop='1567028663554'>
+                    <name>When I enter the edinburgh for whetherforecast</name>
+                    <title>When I enter the edinburgh for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028663554' status='passed' stop='1567028663676'>
+                    <name>Then I should able to select 1</name>
+                    <title>Then I should able to select 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028663676' status='passed' stop='1567028664688'>
+                    <name>Then User should be able to hidden forecast data "1"</name>
+                    <title>Then User should be able to hidden forecast data "1"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567028664689' status='passed' stop='1567028668441'>
+            <name>Verify that user can able to hidden the forecast data.</name>
+            <title>Verify that user can able to hidden the forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567028664689' status='passed' stop='1567028664962'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028664962' status='passed' stop='1567028664992'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028664992' status='passed' stop='1567028667337'>
+                    <name>When I enter the edinburgh for whetherforecast</name>
+                    <title>When I enter the edinburgh for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028667337' status='passed' stop='1567028667445'>
+                    <name>Then I should able to select 2</name>
+                    <title>Then I should able to select 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028667445' status='passed' stop='1567028668441'>
+                    <name>Then User should be able to hidden forecast data "2"</name>
+                    <title>Then User should be able to hidden forecast data "2"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567028668441' status='passed' stop='1567028672206'>
+            <name>Verify that user can able to hidden the forecast data.</name>
+            <title>Verify that user can able to hidden the forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567028668442' status='passed' stop='1567028668709'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028668709' status='passed' stop='1567028668731'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028668731' status='passed' stop='1567028671081'>
+                    <name>When I enter the edinburgh for whetherforecast</name>
+                    <title>When I enter the edinburgh for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028671081' status='passed' stop='1567028671199'>
+                    <name>Then I should able to select 3</name>
+                    <title>Then I should able to select 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028671199' status='passed' stop='1567028672206'>
+                    <name>Then User should be able to hidden forecast data "3"</name>
+                    <title>Then User should be able to hidden forecast data "3"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567028672206' status='passed' stop='1567028675972'>
+            <name>Verify that user can able to hidden the forecast data.</name>
+            <title>Verify that user can able to hidden the forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567028672207' status='passed' stop='1567028672476'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028672476' status='passed' stop='1567028672496'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028672496' status='passed' stop='1567028674859'>
+                    <name>When I enter the edinburgh for whetherforecast</name>
+                    <title>When I enter the edinburgh for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028674859' status='passed' stop='1567028674973'>
+                    <name>Then I should able to select 4</name>
+                    <title>Then I should able to select 4</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028674973' status='passed' stop='1567028675972'>
+                    <name>Then User should be able to hidden forecast data "4"</name>
+                    <title>Then User should be able to hidden forecast data "4"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567028675972' status='passed' stop='1567028679742'>
+            <name>Verify that user can able to hidden the forecast data.</name>
+            <title>Verify that user can able to hidden the forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567028675973' status='passed' stop='1567028676244'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028676245' status='passed' stop='1567028676265'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028676265' status='passed' stop='1567028678622'>
+                    <name>When I enter the edinburgh for whetherforecast</name>
+                    <title>When I enter the edinburgh for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028678622' status='passed' stop='1567028678753'>
+                    <name>Then I should able to select 5</name>
+                    <title>Then I should able to select 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028678753' status='passed' stop='1567028679742'>
+                    <name>Then User should be able to hidden forecast data "5"</name>
+                    <title>Then User should be able to hidden forecast data "5"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567028679743' status='broken' stop='1567028683878'>
+            <name>Verify that user can able to get correct MaxTemp the forecast data.</name>
+            <title>Verify that user can able to get correct MaxTemp the forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567028679743' status='passed' stop='1567028680000'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028680000' status='passed' stop='1567028680019'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028680019' status='passed' stop='1567028682334'>
+                    <name>When I enter the aberdeen for whetherforecast</name>
+                    <title>When I enter the aberdeen for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028682334' status='broken' stop='1567028683878'>
+                    <name>Then I should able to get maximum temp among 5 days</name>
+                    <title>Then I should able to get maximum temp among 5 days</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Maximum temp calculation logic is incorrect</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: Maximum temp calculation logic is incorrect
+                    at forecast.strictEqual [as maxTempCheck] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/forecast.js:142:16)
+                    at whetherPage.maxTempCheck [as maxTemp] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:171:22)
+                    at World.maxTemp (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:70:17)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567028683880' status='broken' stop='1567028687813'>
+            <name>Verify that user can able to get correct MaxTemp the forecast data.</name>
+            <title>Verify that user can able to get correct MaxTemp the forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567028683881' status='passed' stop='1567028684153'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028684153' status='passed' stop='1567028684175'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028684175' status='passed' stop='1567028686437'>
+                    <name>When I enter the dundee for whetherforecast</name>
+                    <title>When I enter the dundee for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028686437' status='broken' stop='1567028687813'>
+                    <name>Then I should able to get maximum temp among 5 days</name>
+                    <title>Then I should able to get maximum temp among 5 days</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Maximum temp calculation logic is incorrect</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: Maximum temp calculation logic is incorrect
+                    at forecast.strictEqual [as maxTempCheck] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/forecast.js:142:16)
+                    at whetherPage.maxTempCheck [as maxTemp] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:171:22)
+                    at World.maxTemp (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:70:17)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567028687814' status='broken' stop='1567028691855'>
+            <name>Verify that user can able to get correct MaxTemp the forecast data.</name>
+            <title>Verify that user can able to get correct MaxTemp the forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567028687814' status='passed' stop='1567028688093'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028688093' status='passed' stop='1567028688116'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028688117' status='passed' stop='1567028690495'>
+                    <name>When I enter the edinburgh for whetherforecast</name>
+                    <title>When I enter the edinburgh for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028690495' status='broken' stop='1567028691855'>
+                    <name>Then I should able to get maximum temp among 5 days</name>
+                    <title>Then I should able to get maximum temp among 5 days</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Maximum temp calculation logic is incorrect</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: Maximum temp calculation logic is incorrect
+                    at forecast.strictEqual [as maxTempCheck] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/forecast.js:142:16)
+                    at whetherPage.maxTempCheck [as maxTemp] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:171:22)
+                    at World.maxTemp (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:70:17)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567028691859' status='broken' stop='1567028695763'>
+            <name>Verify that user can able to get correct MaxTemp the forecast data.</name>
+            <title>Verify that user can able to get correct MaxTemp the forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567028691860' status='passed' stop='1567028692140'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028692140' status='passed' stop='1567028692162'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028692162' status='passed' stop='1567028694456'>
+                    <name>When I enter the glasgow for whetherforecast</name>
+                    <title>When I enter the glasgow for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028694457' status='broken' stop='1567028695763'>
+                    <name>Then I should able to get maximum temp among 5 days</name>
+                    <title>Then I should able to get maximum temp among 5 days</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Maximum temp calculation logic is incorrect</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: Maximum temp calculation logic is incorrect
+                    at forecast.strictEqual [as maxTempCheck] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/forecast.js:142:16)
+                    at whetherPage.maxTempCheck [as maxTemp] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:171:22)
+                    at World.maxTemp (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:70:17)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567028695764' status='passed' stop='1567028700947'>
+            <name>Verify that user can able to get correct MaxTemp the forecast data.</name>
+            <title>Verify that user can able to get correct MaxTemp the forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567028695764' status='passed' stop='1567028696038'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028696038' status='passed' stop='1567028696060'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028696061' status='passed' stop='1567028698260'>
+                    <name>When I enter the perth for whetherforecast</name>
+                    <title>When I enter the perth for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028698260' status='passed' stop='1567028700946'>
+                    <name>Then I should able to get maximum temp among 5 days</name>
+                    <title>Then I should able to get maximum temp among 5 days</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567028700947' status='broken' stop='1567028713631'>
+            <name>Verify that user can able to get correct MinTemp the forecast data.</name>
+            <title>Verify that user can able to get correct MinTemp the forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567028700948' status='passed' stop='1567028701225'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028701225' status='passed' stop='1567028701245'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028701245' status='passed' stop='1567028703594'>
+                    <name>When I enter the aberdeen for whetherforecast</name>
+                    <title>When I enter the aberdeen for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028703594' status='broken' stop='1567028713631'>
+                    <name>Then I should able to select a 5 and i should get minimum temp</name>
+                    <title>Then I should able to select a 5 and i should get minimum temp</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028713631' status='canceled' stop='1567028713632'>
+                    <name>Then I should able to get minimum temp among 5 days</name>
+                    <title>Then I should able to get minimum temp among 5 days</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Can't call click on element with selector "[data-test='day-a 5 and i should get minimum temp']" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "[data-test='day-a 5 and i should get minimum temp']" because element wasn't found
+                    at whetherPage.click [as SelectElement] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:124:43)
+                    at World.SelectElement (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:79:17)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567028713633' status='broken' stop='1567028726208'>
+            <name>Verify that user can able to get correct MinTemp the forecast data.</name>
+            <title>Verify that user can able to get correct MinTemp the forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567028713633' status='passed' stop='1567028713904'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028713904' status='passed' stop='1567028713936'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028713937' status='passed' stop='1567028716176'>
+                    <name>When I enter the dundee for whetherforecast</name>
+                    <title>When I enter the dundee for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028716177' status='broken' stop='1567028726208'>
+                    <name>Then I should able to select a 5 and i should get minimum temp</name>
+                    <title>Then I should able to select a 5 and i should get minimum temp</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028726208' status='canceled' stop='1567028726209'>
+                    <name>Then I should able to get minimum temp among 5 days</name>
+                    <title>Then I should able to get minimum temp among 5 days</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Can't call click on element with selector "[data-test='day-a 5 and i should get minimum temp']" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "[data-test='day-a 5 and i should get minimum temp']" because element wasn't found
+                    at whetherPage.click [as SelectElement] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:124:43)
+                    at World.SelectElement (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:79:17)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567028726210' status='broken' stop='1567028738939'>
+            <name>Verify that user can able to get correct MinTemp the forecast data.</name>
+            <title>Verify that user can able to get correct MinTemp the forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567028726210' status='passed' stop='1567028726492'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028726492' status='passed' stop='1567028726515'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028726515' status='passed' stop='1567028728898'>
+                    <name>When I enter the edinburgh for whetherforecast</name>
+                    <title>When I enter the edinburgh for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028728899' status='broken' stop='1567028738939'>
+                    <name>Then I should able to select a 5 and i should get minimum temp</name>
+                    <title>Then I should able to select a 5 and i should get minimum temp</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028738939' status='canceled' stop='1567028738939'>
+                    <name>Then I should able to get minimum temp among 5 days</name>
+                    <title>Then I should able to get minimum temp among 5 days</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Can't call click on element with selector "[data-test='day-a 5 and i should get minimum temp']" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "[data-test='day-a 5 and i should get minimum temp']" because element wasn't found
+                    at whetherPage.click [as SelectElement] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:124:43)
+                    at World.SelectElement (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:79:17)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567028738942' status='broken' stop='1567028752031'>
+            <name>Verify that user can able to get correct MinTemp the forecast data.</name>
+            <title>Verify that user can able to get correct MinTemp the forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567028738942' status='passed' stop='1567028739225'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028739225' status='passed' stop='1567028739265'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028739265' status='passed' stop='1567028741963'>
+                    <name>When I enter the glasgow for whetherforecast</name>
+                    <title>When I enter the glasgow for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028741963' status='broken' stop='1567028752031'>
+                    <name>Then I should able to select a 5 and i should get minimum temp</name>
+                    <title>Then I should able to select a 5 and i should get minimum temp</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028752031' status='canceled' stop='1567028752031'>
+                    <name>Then I should able to get minimum temp among 5 days</name>
+                    <title>Then I should able to get minimum temp among 5 days</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Can't call click on element with selector "[data-test='day-a 5 and i should get minimum temp']" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "[data-test='day-a 5 and i should get minimum temp']" because element wasn't found
+                    at whetherPage.click [as SelectElement] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:124:43)
+                    at World.SelectElement (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:79:17)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567028752032' status='broken' stop='1567028764670'>
+            <name>Verify that user can able to get correct MinTemp the forecast data.</name>
+            <title>Verify that user can able to get correct MinTemp the forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567028752032' status='passed' stop='1567028752355'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028752355' status='passed' stop='1567028752380'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028752380' status='passed' stop='1567028754622'>
+                    <name>When I enter the perth for whetherforecast</name>
+                    <title>When I enter the perth for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028754622' status='broken' stop='1567028764670'>
+                    <name>Then I should able to select a 5 and i should get minimum temp</name>
+                    <title>Then I should able to select a 5 and i should get minimum temp</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028764670' status='canceled' stop='1567028764670'>
+                    <name>Then I should able to get minimum temp among 5 days</name>
+                    <title>Then I should able to get minimum temp among 5 days</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Can't call click on element with selector "[data-test='day-a 5 and i should get minimum temp']" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "[data-test='day-a 5 and i should get minimum temp']" because element wasn't found
+                    at whetherPage.click [as SelectElement] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:124:43)
+                    at World.SelectElement (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:79:17)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567028764671' status='passed' stop='1567028770663'>
+            <name>Verify that user can able to get correct agg of rainfall for forecast data.</name>
+            <title>Verify that user can able to get correct agg of rainfall for forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567028764671' status='passed' stop='1567028764978'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028764978' status='passed' stop='1567028764999'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028764999' status='passed' stop='1567028767615'>
+                    <name>When I enter the aberdeen for whetherforecast</name>
+                    <title>When I enter the aberdeen for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028767615' status='passed' stop='1567028770662'>
+                    <name>Then I should able to get agg of rainfall among 5 days</name>
+                    <title>Then I should able to get agg of rainfall among 5 days</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567028770664' status='passed' stop='1567028776252'>
+            <name>Verify that user can able to get correct agg of rainfall for forecast data.</name>
+            <title>Verify that user can able to get correct agg of rainfall for forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567028770665' status='passed' stop='1567028770988'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028770988' status='passed' stop='1567028771018'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028771018' status='passed' stop='1567028773265'>
+                    <name>When I enter the dundee for whetherforecast</name>
+                    <title>When I enter the dundee for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028773265' status='passed' stop='1567028776251'>
+                    <name>Then I should able to get agg of rainfall among 5 days</name>
+                    <title>Then I should able to get agg of rainfall among 5 days</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567028776253' status='broken' stop='1567028780273'>
+            <name>Verify that user can able to get correct agg of rainfall for forecast data.</name>
+            <title>Verify that user can able to get correct agg of rainfall for forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567028776253' status='passed' stop='1567028776537'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028776537' status='passed' stop='1567028776558'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028776558' status='passed' stop='1567028778895'>
+                    <name>When I enter the edinburgh for whetherforecast</name>
+                    <title>When I enter the edinburgh for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028778896' status='broken' stop='1567028780273'>
+                    <name>Then I should able to get agg of rainfall among 5 days</name>
+                    <title>Then I should able to get agg of rainfall among 5 days</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Maximum temp calculation logic is incorrect</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: Maximum temp calculation logic is incorrect
+                    at forecast.strictEqual [as aggRainfallCheck] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/forecast.js:91:16)
+                    at whetherPage.aggRainfallCheck [as aggRain] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:147:22)
+                    at World.aggRain (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:66:19)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567028780274' status='broken' stop='1567028784306'>
+            <name>Verify that user can able to get correct agg of rainfall for forecast data.</name>
+            <title>Verify that user can able to get correct agg of rainfall for forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567028780275' status='passed' stop='1567028780548'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028780548' status='passed' stop='1567028780575'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028780575' status='passed' stop='1567028782821'>
+                    <name>When I enter the glasgow for whetherforecast</name>
+                    <title>When I enter the glasgow for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028782821' status='broken' stop='1567028784306'>
+                    <name>Then I should able to get agg of rainfall among 5 days</name>
+                    <title>Then I should able to get agg of rainfall among 5 days</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Maximum temp calculation logic is incorrect</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: Maximum temp calculation logic is incorrect
+                    at forecast.strictEqual [as aggRainfallCheck] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/forecast.js:91:16)
+                    at whetherPage.aggRainfallCheck [as aggRain] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:147:22)
+                    at World.aggRain (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:66:19)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567028784307' status='broken' stop='1567028788626'>
+            <name>Verify that user can able to get correct agg of rainfall for forecast data.</name>
+            <title>Verify that user can able to get correct agg of rainfall for forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567028784308' status='passed' stop='1567028784603'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028784603' status='passed' stop='1567028784629'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028784629' status='passed' stop='1567028786860'>
+                    <name>When I enter the perth for whetherforecast</name>
+                    <title>When I enter the perth for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028786860' status='broken' stop='1567028788626'>
+                    <name>Then I should able to get agg of rainfall among 5 days</name>
+                    <title>Then I should able to get agg of rainfall among 5 days</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Maximum temp calculation logic is incorrect</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: Maximum temp calculation logic is incorrect
+                    at forecast.strictEqual [as aggRainfallCheck] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/forecast.js:91:16)
+                    at whetherPage.aggRainfallCheck [as aggRain] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:147:22)
+                    at World.aggRain (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:66:19)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567028788626' status='broken' stop='1567028791991'>
+            <name>Verify that user can able to get correct most dominant wind conditions for forecast data.</name>
+            <title>Verify that user can able to get correct most dominant wind conditions for forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567028788627' status='passed' stop='1567028788904'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028788904' status='passed' stop='1567028788928'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028788928' status='passed' stop='1567028791296'>
+                    <name>When I enter the aberdeen for whetherforecast</name>
+                    <title>When I enter the aberdeen for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028791297' status='broken' stop='1567028791991'>
+                    <name>Then I should able to get most dominant wind conditions among 5 days</name>
+                    <title>Then I should able to get most dominant wind conditions among 5 days</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Most dominant wind Constion is not matching</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: Most dominant wind Constion is not matching
+                    at forecast.strictEqual [as DominantConditionWind] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/forecast.js:63:16)
+                    at whetherPage.DominantConditionWind [as windCondition] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:134:22)
+                    at World.windCondition (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:56:21)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567028791992' status='broken' stop='1567028795178'>
+            <name>Verify that user can able to get correct most dominant wind conditions for forecast data.</name>
+            <title>Verify that user can able to get correct most dominant wind conditions for forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567028791992' status='passed' stop='1567028792284'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028792284' status='passed' stop='1567028792305'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028792305' status='passed' stop='1567028794562'>
+                    <name>When I enter the dundee for whetherforecast</name>
+                    <title>When I enter the dundee for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028794562' status='broken' stop='1567028795178'>
+                    <name>Then I should able to get most dominant wind conditions among 5 days</name>
+                    <title>Then I should able to get most dominant wind conditions among 5 days</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Most dominant wind Constion is not matching</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: Most dominant wind Constion is not matching
+                    at forecast.strictEqual [as DominantConditionWind] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/forecast.js:63:16)
+                    at whetherPage.DominantConditionWind [as windCondition] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:134:22)
+                    at World.windCondition (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:56:21)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567028795179' status='broken' stop='1567028798499'>
+            <name>Verify that user can able to get correct most dominant wind conditions for forecast data.</name>
+            <title>Verify that user can able to get correct most dominant wind conditions for forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567028795179' status='passed' stop='1567028795479'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028795479' status='passed' stop='1567028795502'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028795502' status='passed' stop='1567028797873'>
+                    <name>When I enter the edinburgh for whetherforecast</name>
+                    <title>When I enter the edinburgh for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028797873' status='broken' stop='1567028798499'>
+                    <name>Then I should able to get most dominant wind conditions among 5 days</name>
+                    <title>Then I should able to get most dominant wind conditions among 5 days</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Most dominant wind Constion is not matching</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: Most dominant wind Constion is not matching
+                    at forecast.strictEqual [as DominantConditionWind] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/forecast.js:63:16)
+                    at whetherPage.DominantConditionWind [as windCondition] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:134:22)
+                    at World.windCondition (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:56:21)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567028798500' status='broken' stop='1567028801699'>
+            <name>Verify that user can able to get correct most dominant wind conditions for forecast data.</name>
+            <title>Verify that user can able to get correct most dominant wind conditions for forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567028798500' status='passed' stop='1567028798769'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028798769' status='passed' stop='1567028798793'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028798793' status='passed' stop='1567028801068'>
+                    <name>When I enter the glasgow for whetherforecast</name>
+                    <title>When I enter the glasgow for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028801068' status='broken' stop='1567028801699'>
+                    <name>Then I should able to get most dominant wind conditions among 5 days</name>
+                    <title>Then I should able to get most dominant wind conditions among 5 days</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Most dominant wind Constion is not matching</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: Most dominant wind Constion is not matching
+                    at forecast.strictEqual [as DominantConditionWind] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/forecast.js:63:16)
+                    at whetherPage.DominantConditionWind [as windCondition] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:134:22)
+                    at World.windCondition (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:56:21)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567028801700' status='broken' stop='1567028804567'>
+            <name>Verify that user can able to get correct most dominant wind conditions for forecast data.</name>
+            <title>Verify that user can able to get correct most dominant wind conditions for forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567028801701' status='passed' stop='1567028801962'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028801962' status='passed' stop='1567028801984'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028801984' status='passed' stop='1567028804227'>
+                    <name>When I enter the perth for whetherforecast</name>
+                    <title>When I enter the perth for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028804227' status='broken' stop='1567028804567'>
+                    <name>Then I should able to get most dominant wind conditions among 5 days</name>
+                    <title>Then I should able to get most dominant wind conditions among 5 days</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Most dominant wind Constion is not matching</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: Most dominant wind Constion is not matching
+                    at forecast.strictEqual [as DominantConditionWind] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/forecast.js:63:16)
+                    at whetherPage.DominantConditionWind [as windCondition] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:134:22)
+                    at World.windCondition (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:56:21)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567028804569' status='broken' stop='1567028807988'>
+            <name>Verify that user can able to get correct most dominant conditions for forecast data.</name>
+            <title>Verify that user can able to get correct most dominant conditions for forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567028804570' status='passed' stop='1567028804870'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028804870' status='passed' stop='1567028804898'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028804898' status='passed' stop='1567028807234'>
+                    <name>When I enter the aberdeen for whetherforecast</name>
+                    <title>When I enter the aberdeen for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028807234' status='broken' stop='1567028807988'>
+                    <name>Then I should able to get most dominant weather conditions among 5 days</name>
+                    <title>Then I should able to get most dominant weather conditions among 5 days</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Most dominant condition is not matching for</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: Most dominant condition is not matching for
+                    at forecast.strictEqual [as DominantCondition] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/forecast.js:33:16)
+                    at whetherPage.DominantCondition [as weatherCondition] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:185:22)
+                    at World.weatherCondition (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:61:20)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567028807989' status='broken' stop='1567028813565'>
+            <name>Verify that user can able to get correct most dominant conditions for forecast data.</name>
+            <title>Verify that user can able to get correct most dominant conditions for forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567028807990' status='passed' stop='1567028808256'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028808256' status='passed' stop='1567028808278'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028808278' status='passed' stop='1567028810515'>
+                    <name>When I enter the dundee for whetherforecast</name>
+                    <title>When I enter the dundee for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028810515' status='broken' stop='1567028813565'>
+                    <name>Then I should able to get most dominant weather conditions among 5 days</name>
+                    <title>Then I should able to get most dominant weather conditions among 5 days</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Most dominant condition is not matching for</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: Most dominant condition is not matching for
+                    at forecast.strictEqual [as DominantCondition] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/forecast.js:33:16)
+                    at whetherPage.DominantCondition [as weatherCondition] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:185:22)
+                    at World.weatherCondition (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:61:20)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567028813566' status='broken' stop='1567028817759'>
+            <name>Verify that user can able to get correct most dominant conditions for forecast data.</name>
+            <title>Verify that user can able to get correct most dominant conditions for forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567028813566' status='passed' stop='1567028813845'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028813845' status='passed' stop='1567028813867'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028813868' status='passed' stop='1567028816254'>
+                    <name>When I enter the edinburgh for whetherforecast</name>
+                    <title>When I enter the edinburgh for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028816254' status='broken' stop='1567028817759'>
+                    <name>Then I should able to get most dominant weather conditions among 5 days</name>
+                    <title>Then I should able to get most dominant weather conditions among 5 days</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Most dominant condition is not matching for</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: Most dominant condition is not matching for
+                    at forecast.strictEqual [as DominantCondition] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/forecast.js:33:16)
+                    at whetherPage.DominantCondition [as weatherCondition] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:185:22)
+                    at World.weatherCondition (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:61:20)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567028817760' status='broken' stop='1567028821038'>
+            <name>Verify that user can able to get correct most dominant conditions for forecast data.</name>
+            <title>Verify that user can able to get correct most dominant conditions for forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567028817760' status='passed' stop='1567028818030'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028818030' status='passed' stop='1567028818053'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028818053' status='passed' stop='1567028820327'>
+                    <name>When I enter the glasgow for whetherforecast</name>
+                    <title>When I enter the glasgow for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028820327' status='broken' stop='1567028821038'>
+                    <name>Then I should able to get most dominant weather conditions among 5 days</name>
+                    <title>Then I should able to get most dominant weather conditions among 5 days</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Most dominant condition is not matching for</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: Most dominant condition is not matching for
+                    at forecast.strictEqual [as DominantCondition] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/forecast.js:33:16)
+                    at whetherPage.DominantCondition [as weatherCondition] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:185:22)
+                    at World.weatherCondition (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:61:20)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567028821039' status='broken' stop='1567028825040'>
+            <name>Verify that user can able to get correct most dominant conditions for forecast data.</name>
+            <title>Verify that user can able to get correct most dominant conditions for forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567028821040' status='passed' stop='1567028821322'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028821322' status='passed' stop='1567028821344'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028821344' status='passed' stop='1567028823574'>
+                    <name>When I enter the perth for whetherforecast</name>
+                    <title>When I enter the perth for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567028823574' status='broken' stop='1567028825040'>
+                    <name>Then I should able to get most dominant weather conditions among 5 days</name>
+                    <title>Then I should able to get most dominant weather conditions among 5 days</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Most dominant condition is not matching for</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: Most dominant condition is not matching for
+                    at forecast.strictEqual [as DominantCondition] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/forecast.js:33:16)
+                    at whetherPage.DominantCondition [as weatherCondition] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:185:22)
+                    at World.weatherCondition (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:61:20)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

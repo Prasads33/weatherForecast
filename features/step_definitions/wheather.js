@@ -20,66 +20,29 @@ When(/^I enter the (.*) for whetherforecast$/, function (cityName) {
 
 });
 
-Then(/^I should get all whether information for (.*)$/, function (NoOfDays) {
-    let actualCount =whetherPage.DaysCount();
-    console.log('No of Days of forecast::',actualCount)
-    assert.strictEqual(actualCount,actualCount, 'No of Days forecast not matching')
-
-
-}); Then(/^I should able to select a (.*)$/, function (day) {
-        whetherPage.SelectElement(day);
-        console.log('Element Click')
-
-}); Then(/^Abel to get (.*) forecast data$/, function () {
-
-
-});
-
-
  Then(/^I should able to hide forecast data$/, function () {
      whetherPage.hideWebElement();
     console.log('Element Hide');
 
 });
 
-Then(/^I should able to get all correct Maximum Temp$/, function () {
-    whetherPage.MaxTemp();
-
-    //console.log('actualTCount...>>>>',actualTCount)
-});
-
-Then(/^Daily forecast should be able to summarise the (.*) data$/, function () {
-
-
-
-}); Then(/^I should able to get Most dominant \(or current\) condition$/, function () {
-
-}); Then(/^Most dominant \(or current\) wind speed and direction in rounded values$/, function () {
-
-}); Then(/^I should able to get Aggregate rainfall in rounded values$/, function () {
-
-}); Then(/^I should able to get Minimum and maximum temperatures in rounded values$/, function () {
-
-});Then(/^user should see 3hourly forcasasdt for that (.*)$/, function (day) {
-        whetherPage.summariseWeather(day);
-
-});Then(/^user should see Three hourly forcast for that "([^"]*)"$/, function (day) {
+Then(/^User should able to expand the data and get after every three hourly forecast data"([^"]*)"$/, function (day) {
            whetherPage.checkItemExpanded(day);
           whetherPage.threeHourDifference(day);
 
  });
-Then(/^Status of hourly forecast should be hidden for "([^"]*)"$/, function (day) {
+Then(/^User should be able to hidden forecast data "([^"]*)"$/, function (day) {
     whetherPage.checkItemCollapsed(day)
     });
 
-Then(/^user should see 3hourly forcast for that "([^"]*)"$/, function (day) {
-     // whetherPage.summariseWeather(day);
-      //whetherPage.maxTempCheck(day);
-       whetherPage.minTempCheck(day);
-    //   whetherPage.aggRainfallCheck(day);
-    //  whetherPage.DominantCondition(day);
-    // whetherPage.DominantConditionWind(day);
-    });
+// Then(/^user should see 3hourly forcast for that "([^"]*)"$/, function (day) {
+//      // whetherPage.summariseWeather(day);
+//       //whetherPage.maxTempCheck(day);
+//        whetherPage.minTempCheck(day);
+//     //   whetherPage.aggRainfallCheck(day);
+//     //  whetherPage.DominantCondition(day);
+//     // whetherPage.DominantConditionWind(day);
+//     });
 
     Then(/^I should be able to launch the application with header "([^"]*)"$/, function (text) {
             whetherPage.TextEqual(text);
@@ -87,4 +50,31 @@ Then(/^user should see 3hourly forcast for that "([^"]*)"$/, function (day) {
 
     Then(/^I should be able to launch the application with header1 "([^"]*)"$/, function (text) {
         whetherPage.TextEqual2(text);
+    });
+
+    Then(/^I should able to get most dominant wind conditions for (.*) among (.*) days$/, function (cityName,day) {
+        whetherPage.windCondition(day,cityName);
+        console.log('Element Click')
+    });
+
+    Then(/^I should able to get most dominant weather conditions for (.*) among (.*) days$/, function (cityName,day) {
+       whetherPage.weatherCondition(day,cityName)
+    });
+
+
+     Then(/^I should able to get agg of rainfall for (.*) among (.*) days$/, function (cityName,day) {
+      whetherPage.aggRain(day,cityName)
+    });
+
+    Then(/^I should able to get maximum temp for (.*) among (.*) days$/, function (cityName,day) {
+    whetherPage.maxTemp(day,cityName)
+    });
+
+    Then(/^I should able to get minimum temp for (.*) among (.*) days$/, function (cityName,day) {
+        whetherPage.minimum(day,cityName)
+    });
+
+
+    Then(/^I should able to select (.*)$/, function (day) {
+    whetherPage.SelectElement(day)
     });

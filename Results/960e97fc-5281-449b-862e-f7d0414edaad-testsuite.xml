@@ -1,0 +1,232 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1567009733265' stop='1567009752520'>
+    <name>As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully</name>
+    <title>As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully</title>
+    <test-cases>
+        <test-case start='1567009733278' status='passed' stop='1567009737571'>
+            <name>Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours.</name>
+            <title>Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567009733282' status='passed' stop='1567009734053'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567009734054' status='passed' stop='1567009734093'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567009734094' status='passed' stop='1567009736500'>
+                    <name>When I enter the stirling for whetherforecast</name>
+                    <title>When I enter the stirling for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567009736500' status='passed' stop='1567009736626'>
+                    <name>Then I should able to select 1</name>
+                    <title>Then I should able to select 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567009736626' status='passed' stop='1567009737570'>
+                    <name>Then User should able to expand the data and get after every three hourly forecast data"1"</name>
+                    <title>Then User should able to expand the data and get after every three hourly forecast data"1"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567009737572' status='passed' stop='1567009741318'>
+            <name>Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours.</name>
+            <title>Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567009737572' status='passed' stop='1567009737856'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567009737856' status='passed' stop='1567009737882'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567009737882' status='passed' stop='1567009740176'>
+                    <name>When I enter the stirling for whetherforecast</name>
+                    <title>When I enter the stirling for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567009740176' status='passed' stop='1567009740293'>
+                    <name>Then I should able to select 2</name>
+                    <title>Then I should able to select 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567009740293' status='passed' stop='1567009741317'>
+                    <name>Then User should able to expand the data and get after every three hourly forecast data"2"</name>
+                    <title>Then User should able to expand the data and get after every three hourly forecast data"2"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567009741318' status='passed' stop='1567009745064'>
+            <name>Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours.</name>
+            <title>Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567009741319' status='passed' stop='1567009741602'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567009741602' status='passed' stop='1567009741629'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567009741629' status='passed' stop='1567009743951'>
+                    <name>When I enter the stirling for whetherforecast</name>
+                    <title>When I enter the stirling for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567009743951' status='passed' stop='1567009744061'>
+                    <name>Then I should able to select 3</name>
+                    <title>Then I should able to select 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567009744062' status='passed' stop='1567009745063'>
+                    <name>Then User should able to expand the data and get after every three hourly forecast data"3"</name>
+                    <title>Then User should able to expand the data and get after every three hourly forecast data"3"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567009745064' status='passed' stop='1567009748771'>
+            <name>Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours.</name>
+            <title>Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567009745064' status='passed' stop='1567009745319'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567009745319' status='passed' stop='1567009745344'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567009745344' status='passed' stop='1567009747652'>
+                    <name>When I enter the stirling for whetherforecast</name>
+                    <title>When I enter the stirling for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567009747653' status='passed' stop='1567009747764'>
+                    <name>Then I should able to select 4</name>
+                    <title>Then I should able to select 4</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567009747764' status='passed' stop='1567009748771'>
+                    <name>Then User should able to expand the data and get after every three hourly forecast data"4"</name>
+                    <title>Then User should able to expand the data and get after every three hourly forecast data"4"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567009748771' status='passed' stop='1567009752520'>
+            <name>Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours.</name>
+            <title>Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567009748772' status='passed' stop='1567009749047'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567009749047' status='passed' stop='1567009749074'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567009749074' status='passed' stop='1567009751392'>
+                    <name>When I enter the stirling for whetherforecast</name>
+                    <title>When I enter the stirling for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567009751392' status='passed' stop='1567009751507'>
+                    <name>Then I should able to select 5</name>
+                    <title>Then I should able to select 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567009751507' status='passed' stop='1567009752519'>
+                    <name>Then User should able to expand the data and get after every three hourly forecast data"5"</name>
+                    <title>Then User should able to expand the data and get after every three hourly forecast data"5"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

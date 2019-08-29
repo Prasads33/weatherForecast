@@ -5,11 +5,11 @@
     "name" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully",
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 3,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 2
+      "total" : 12
     }
   }, {
     "uid" : "638555f156d6d8e906c144e532cfaca7",

@@ -1,0 +1,237 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1567034317151' stop='1567034339644'>
+    <name>As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully</name>
+    <title>As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully</title>
+    <test-cases>
+        <test-case start='1567034317156' status='broken' stop='1567034321219'>
+            <name>Verify that user can able to get correct most dominant wind conditions for forecast data.</name>
+            <title>Verify that user can able to get correct most dominant wind conditions for forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567034317162' status='passed' stop='1567034317757'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567034317757' status='passed' stop='1567034317810'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567034317811' status='passed' stop='1567034320196'>
+                    <name>When I enter the aberdeen for whetherforecast</name>
+                    <title>When I enter the aberdeen for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567034320196' status='broken' stop='1567034321219'>
+                    <name>Then I should able to get most dominant wind conditions for aberdeen among 5 days</name>
+                    <title>Then I should able to get most dominant wind conditions for aberdeen among 5 days</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>for aberdeen Most dominant wind condition is not matching for day 1</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: for aberdeen Most dominant wind condition is not matching for day 1
+                    at forecast.strictEqual [as DominantConditionWind] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/forecast.js:65:16)
+                    at whetherPage.DominantConditionWind [as windCondition] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:136:22)
+                    at World.windCondition (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:56:21)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567034321222' status='broken' stop='1567034325845'>
+            <name>Verify that user can able to get correct most dominant wind conditions for forecast data.</name>
+            <title>Verify that user can able to get correct most dominant wind conditions for forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567034321224' status='passed' stop='1567034321536'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567034321537' status='passed' stop='1567034321560'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567034321560' status='passed' stop='1567034323793'>
+                    <name>When I enter the dundee for whetherforecast</name>
+                    <title>When I enter the dundee for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567034323793' status='broken' stop='1567034325845'>
+                    <name>Then I should able to get most dominant wind conditions for dundee among 5 days</name>
+                    <title>Then I should able to get most dominant wind conditions for dundee among 5 days</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>for dundee Most dominant wind condition is not matching for day 2</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: for dundee Most dominant wind condition is not matching for day 2
+                    at forecast.strictEqual [as DominantConditionWind] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/forecast.js:65:16)
+                    at whetherPage.DominantConditionWind [as windCondition] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:136:22)
+                    at World.windCondition (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:56:21)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567034325848' status='broken' stop='1567034330548'>
+            <name>Verify that user can able to get correct most dominant wind conditions for forecast data.</name>
+            <title>Verify that user can able to get correct most dominant wind conditions for forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567034325850' status='passed' stop='1567034326147'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567034326147' status='passed' stop='1567034326168'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567034326168' status='passed' stop='1567034328539'>
+                    <name>When I enter the edinburgh for whetherforecast</name>
+                    <title>When I enter the edinburgh for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567034328540' status='broken' stop='1567034330548'>
+                    <name>Then I should able to get most dominant wind conditions for edinburgh among 5 days</name>
+                    <title>Then I should able to get most dominant wind conditions for edinburgh among 5 days</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>for edinburgh Most dominant wind condition is not matching for day 2</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: for edinburgh Most dominant wind condition is not matching for day 2
+                    at forecast.strictEqual [as DominantConditionWind] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/forecast.js:65:16)
+                    at whetherPage.DominantConditionWind [as windCondition] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:136:22)
+                    at World.windCondition (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:56:21)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567034330548' status='broken' stop='1567034335129'>
+            <name>Verify that user can able to get correct most dominant wind conditions for forecast data.</name>
+            <title>Verify that user can able to get correct most dominant wind conditions for forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567034330549' status='passed' stop='1567034330824'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567034330825' status='passed' stop='1567034330848'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567034330848' status='passed' stop='1567034333134'>
+                    <name>When I enter the glasgow for whetherforecast</name>
+                    <title>When I enter the glasgow for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567034333134' status='broken' stop='1567034335129'>
+                    <name>Then I should able to get most dominant wind conditions for glasgow among 5 days</name>
+                    <title>Then I should able to get most dominant wind conditions for glasgow among 5 days</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>for glasgow Most dominant wind condition is not matching for day 2</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: for glasgow Most dominant wind condition is not matching for day 2
+                    at forecast.strictEqual [as DominantConditionWind] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/forecast.js:65:16)
+                    at whetherPage.DominantConditionWind [as windCondition] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:136:22)
+                    at World.windCondition (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:56:21)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567034335131' status='broken' stop='1567034339643'>
+            <name>Verify that user can able to get correct most dominant wind conditions for forecast data.</name>
+            <title>Verify that user can able to get correct most dominant wind conditions for forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567034335131' status='passed' stop='1567034335423'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567034335423' status='passed' stop='1567034335442'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567034335442' status='passed' stop='1567034337661'>
+                    <name>When I enter the perth for whetherforecast</name>
+                    <title>When I enter the perth for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567034337661' status='broken' stop='1567034339643'>
+                    <name>Then I should able to get most dominant wind conditions for perth among 5 days</name>
+                    <title>Then I should able to get most dominant wind conditions for perth among 5 days</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>for perth Most dominant wind condition is not matching for day 2</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: for perth Most dominant wind condition is not matching for day 2
+                    at forecast.strictEqual [as DominantConditionWind] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/forecast.js:65:16)
+                    at whetherPage.DominantConditionWind [as windCondition] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:136:22)
+                    at World.windCondition (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:56:21)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

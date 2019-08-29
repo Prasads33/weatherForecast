@@ -1,0 +1,202 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1567029834951' stop='1567029852443'>
+    <name>As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully</name>
+    <title>As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully</title>
+    <test-cases>
+        <test-case start='1567029834963' status='passed' stop='1567029838864'>
+            <name>Verify that user can able to get correct most dominant conditions for forecast data.</name>
+            <title>Verify that user can able to get correct most dominant conditions for forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567029834965' status='passed' stop='1567029835578'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567029835578' status='passed' stop='1567029835629'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567029835629' status='passed' stop='1567029838024'>
+                    <name>When I enter the aberdeen for whetherforecast</name>
+                    <title>When I enter the aberdeen for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567029838025' status='passed' stop='1567029838863'>
+                    <name>Then I should able to get most dominant weather conditions for aberdeen among 5 days</name>
+                    <title>Then I should able to get most dominant weather conditions for aberdeen among 5 days</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567029838865' status='passed' stop='1567029842266'>
+            <name>Verify that user can able to get correct most dominant conditions for forecast data.</name>
+            <title>Verify that user can able to get correct most dominant conditions for forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567029838866' status='passed' stop='1567029839176'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567029839177' status='passed' stop='1567029839200'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567029839200' status='passed' stop='1567029841451'>
+                    <name>When I enter the dundee for whetherforecast</name>
+                    <title>When I enter the dundee for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567029841451' status='passed' stop='1567029842265'>
+                    <name>Then I should able to get most dominant weather conditions for dundee among 5 days</name>
+                    <title>Then I should able to get most dominant weather conditions for dundee among 5 days</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567029842266' status='passed' stop='1567029845755'>
+            <name>Verify that user can able to get correct most dominant conditions for forecast data.</name>
+            <title>Verify that user can able to get correct most dominant conditions for forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567029842267' status='passed' stop='1567029842541'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567029842541' status='passed' stop='1567029842579'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567029842579' status='passed' stop='1567029844932'>
+                    <name>When I enter the edinburgh for whetherforecast</name>
+                    <title>When I enter the edinburgh for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567029844932' status='passed' stop='1567029845754'>
+                    <name>Then I should able to get most dominant weather conditions for edinburgh among 5 days</name>
+                    <title>Then I should able to get most dominant weather conditions for edinburgh among 5 days</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567029845755' status='passed' stop='1567029849109'>
+            <name>Verify that user can able to get correct most dominant conditions for forecast data.</name>
+            <title>Verify that user can able to get correct most dominant conditions for forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567029845756' status='passed' stop='1567029846015'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567029846015' status='passed' stop='1567029846038'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567029846038' status='passed' stop='1567029848288'>
+                    <name>When I enter the glasgow for whetherforecast</name>
+                    <title>When I enter the glasgow for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567029848288' status='passed' stop='1567029849108'>
+                    <name>Then I should able to get most dominant weather conditions for glasgow among 5 days</name>
+                    <title>Then I should able to get most dominant weather conditions for glasgow among 5 days</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567029849109' status='passed' stop='1567029852442'>
+            <name>Verify that user can able to get correct most dominant conditions for forecast data.</name>
+            <title>Verify that user can able to get correct most dominant conditions for forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567029849110' status='passed' stop='1567029849379'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567029849379' status='passed' stop='1567029849411'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567029849411' status='passed' stop='1567029851617'>
+                    <name>When I enter the perth for whetherforecast</name>
+                    <title>When I enter the perth for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567029851619' status='passed' stop='1567029852442'>
+                    <name>Then I should able to get most dominant weather conditions for perth among 5 days</name>
+                    <title>Then I should able to get most dominant weather conditions for perth among 5 days</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

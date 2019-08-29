@@ -1,0 +1,688 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1567002994308' stop='1567003003201'>
+    <name>As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully</name>
+    <title>As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully</title>
+    <test-cases>
+        <test-case start='1567002994321' status='undefined'>
+            <name>Weather app test</name>
+            <title>Weather app test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567002994324' status='passed' stop='1567002995078'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567002995079' status='passed' stop='1567002995118'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567002995118' status='passed' stop='1567002997535'>
+                    <name>When I enter the aberdeen for whetherforecast</name>
+                    <title>When I enter the aberdeen for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567002997535' status='canceled' stop='1567002997541'>
+                    <name>Then I should able to select a 5 and i should get maximum temp</name>
+                    <title>Then I should able to select a 5 and i should get maximum temp</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567002997543' status='undefined'>
+            <name>Weather app test</name>
+            <title>Weather app test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567002997544' status='passed' stop='1567002997866'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567002997867' status='passed' stop='1567002997892'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567002997892' status='passed' stop='1567003000137'>
+                    <name>When I enter the dundee for whetherforecast</name>
+                    <title>When I enter the dundee for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567003000137' status='canceled' stop='1567003000138'>
+                    <name>Then I should able to select a 5 and i should get maximum temp</name>
+                    <title>Then I should able to select a 5 and i should get maximum temp</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567003000139' status='undefined'>
+            <name>Weather app test</name>
+            <title>Weather app test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567003000139' status='passed' stop='1567003000434'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567003000434' status='passed' stop='1567003000457'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567003000457' status='passed' stop='1567003002860'>
+                    <name>When I enter the edinburgh for whetherforecast</name>
+                    <title>When I enter the edinburgh for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567003002860' status='canceled' stop='1567003002862'>
+                    <name>Then I should able to select a 5 and i should get maximum temp</name>
+                    <title>Then I should able to select a 5 and i should get maximum temp</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567003002863' status='broken' stop='1567003002893'>
+            <name>Weather app test</name>
+            <title>Weather app test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567003002863' status='broken' stop='1567003002893'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567003002893' status='canceled' stop='1567003002894'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567003002894' status='canceled' stop='1567003002894'>
+                    <name>When I enter the glasgow for whetherforecast</name>
+                    <title>When I enter the glasgow for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567003002894' status='canceled' stop='1567003002895'>
+                    <name>Then I should able to select a 5 and i should get maximum temp</name>
+                    <title>Then I should able to select a 5 and i should get maximum temp</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: window was already closed
+                  (Session info: chrome=76.0.3809.100)</message>
+                <stack-trace>no such window: window was already closed
+                  (Session info: chrome=76.0.3809.100)
+                    at endReadableNT (_stream_readable.js:1145:12)
+                    at World.url (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:12:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567003002896' status='broken' stop='1567003002920'>
+            <name>Weather app test</name>
+            <title>Weather app test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567003002896' status='broken' stop='1567003002920'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567003002920' status='canceled' stop='1567003002921'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567003002921' status='canceled' stop='1567003002921'>
+                    <name>When I enter the perth for whetherforecast</name>
+                    <title>When I enter the perth for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567003002921' status='canceled' stop='1567003002922'>
+                    <name>Then I should able to select a 5 and i should get maximum temp</name>
+                    <title>Then I should able to select a 5 and i should get maximum temp</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: window was already closed
+                  (Session info: chrome=76.0.3809.100)</message>
+                <stack-trace>no such window: window was already closed
+                  (Session info: chrome=76.0.3809.100)
+                    at endReadableNT (_stream_readable.js:1145:12)
+                    at World.url (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:12:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567003002923' status='broken' stop='1567003002947'>
+            <name>Weather app test</name>
+            <title>Weather app test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567003002923' status='broken' stop='1567003002947'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567003002947' status='canceled' stop='1567003002948'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567003002948' status='canceled' stop='1567003002948'>
+                    <name>When I enter the aberdeen for whetherforecast</name>
+                    <title>When I enter the aberdeen for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567003002948' status='canceled' stop='1567003002948'>
+                    <name>Then I should able to select a 5 and i should get minimum temp</name>
+                    <title>Then I should able to select a 5 and i should get minimum temp</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: window was already closed
+                  (Session info: chrome=76.0.3809.100)</message>
+                <stack-trace>no such window: window was already closed
+                  (Session info: chrome=76.0.3809.100)
+                    at endReadableNT (_stream_readable.js:1145:12)
+                    at World.url (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:12:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567003002949' status='broken' stop='1567003002971'>
+            <name>Weather app test</name>
+            <title>Weather app test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567003002949' status='broken' stop='1567003002971'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567003002971' status='canceled' stop='1567003002971'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567003002971' status='canceled' stop='1567003002971'>
+                    <name>When I enter the dundee for whetherforecast</name>
+                    <title>When I enter the dundee for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567003002971' status='canceled' stop='1567003002972'>
+                    <name>Then I should able to select a 5 and i should get minimum temp</name>
+                    <title>Then I should able to select a 5 and i should get minimum temp</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: window was already closed
+                  (Session info: chrome=76.0.3809.100)</message>
+                <stack-trace>no such window: window was already closed
+                  (Session info: chrome=76.0.3809.100)
+                    at endReadableNT (_stream_readable.js:1145:12)
+                    at World.url (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:12:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567003002972' status='broken' stop='1567003002998'>
+            <name>Weather app test</name>
+            <title>Weather app test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567003002973' status='broken' stop='1567003002998'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567003002999' status='canceled' stop='1567003002999'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567003002999' status='canceled' stop='1567003002999'>
+                    <name>When I enter the edinburgh for whetherforecast</name>
+                    <title>When I enter the edinburgh for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567003002999' status='canceled' stop='1567003003000'>
+                    <name>Then I should able to select a 5 and i should get minimum temp</name>
+                    <title>Then I should able to select a 5 and i should get minimum temp</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: window was already closed
+                  (Session info: chrome=76.0.3809.100)</message>
+                <stack-trace>no such window: window was already closed
+                  (Session info: chrome=76.0.3809.100)
+                    at endReadableNT (_stream_readable.js:1145:12)
+                    at World.url (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:12:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567003003001' status='broken' stop='1567003003043'>
+            <name>Weather app test</name>
+            <title>Weather app test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567003003002' status='broken' stop='1567003003043'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567003003043' status='canceled' stop='1567003003043'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567003003043' status='canceled' stop='1567003003043'>
+                    <name>When I enter the glasgow for whetherforecast</name>
+                    <title>When I enter the glasgow for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567003003043' status='canceled' stop='1567003003044'>
+                    <name>Then I should able to select a 5 and i should get minimum temp</name>
+                    <title>Then I should able to select a 5 and i should get minimum temp</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: window was already closed
+                  (Session info: chrome=76.0.3809.100)</message>
+                <stack-trace>no such window: window was already closed
+                  (Session info: chrome=76.0.3809.100)
+                    at endReadableNT (_stream_readable.js:1145:12)
+                    at World.url (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:12:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567003003045' status='broken' stop='1567003003069'>
+            <name>Weather app test</name>
+            <title>Weather app test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567003003046' status='broken' stop='1567003003069'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567003003069' status='canceled' stop='1567003003069'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567003003069' status='canceled' stop='1567003003069'>
+                    <name>When I enter the perth for whetherforecast</name>
+                    <title>When I enter the perth for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567003003069' status='canceled' stop='1567003003070'>
+                    <name>Then I should able to select a 5 and i should get minimum temp</name>
+                    <title>Then I should able to select a 5 and i should get minimum temp</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: window was already closed
+                  (Session info: chrome=76.0.3809.100)</message>
+                <stack-trace>no such window: window was already closed
+                  (Session info: chrome=76.0.3809.100)
+                    at endReadableNT (_stream_readable.js:1145:12)
+                    at World.url (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:12:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567003003071' status='broken' stop='1567003003094'>
+            <name>Weather app test</name>
+            <title>Weather app test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567003003071' status='broken' stop='1567003003094'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567003003094' status='canceled' stop='1567003003094'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567003003094' status='canceled' stop='1567003003095'>
+                    <name>When I enter the aberdeen for whetherforecast</name>
+                    <title>When I enter the aberdeen for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567003003095' status='canceled' stop='1567003003095'>
+                    <name>Then I should able to select a 5 and i should get minimum temp</name>
+                    <title>Then I should able to select a 5 and i should get minimum temp</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: window was already closed
+                  (Session info: chrome=76.0.3809.100)</message>
+                <stack-trace>no such window: window was already closed
+                  (Session info: chrome=76.0.3809.100)
+                    at endReadableNT (_stream_readable.js:1145:12)
+                    at World.url (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:12:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567003003096' status='broken' stop='1567003003121'>
+            <name>Weather app test</name>
+            <title>Weather app test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567003003097' status='broken' stop='1567003003121'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567003003121' status='canceled' stop='1567003003121'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567003003121' status='canceled' stop='1567003003121'>
+                    <name>When I enter the dundee for whetherforecast</name>
+                    <title>When I enter the dundee for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567003003121' status='canceled' stop='1567003003122'>
+                    <name>Then I should able to select a 5 and i should get minimum temp</name>
+                    <title>Then I should able to select a 5 and i should get minimum temp</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: window was already closed
+                  (Session info: chrome=76.0.3809.100)</message>
+                <stack-trace>no such window: window was already closed
+                  (Session info: chrome=76.0.3809.100)
+                    at endReadableNT (_stream_readable.js:1145:12)
+                    at World.url (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:12:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567003003123' status='broken' stop='1567003003146'>
+            <name>Weather app test</name>
+            <title>Weather app test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567003003123' status='broken' stop='1567003003146'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567003003147' status='canceled' stop='1567003003147'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567003003147' status='canceled' stop='1567003003147'>
+                    <name>When I enter the edinburgh for whetherforecast</name>
+                    <title>When I enter the edinburgh for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567003003147' status='canceled' stop='1567003003147'>
+                    <name>Then I should able to select a 5 and i should get minimum temp</name>
+                    <title>Then I should able to select a 5 and i should get minimum temp</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: window was already closed
+                  (Session info: chrome=76.0.3809.100)</message>
+                <stack-trace>no such window: window was already closed
+                  (Session info: chrome=76.0.3809.100)
+                    at endReadableNT (_stream_readable.js:1145:12)
+                    at World.url (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:12:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567003003148' status='broken' stop='1567003003171'>
+            <name>Weather app test</name>
+            <title>Weather app test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567003003148' status='broken' stop='1567003003171'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567003003171' status='canceled' stop='1567003003172'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567003003172' status='canceled' stop='1567003003172'>
+                    <name>When I enter the glasgow for whetherforecast</name>
+                    <title>When I enter the glasgow for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567003003172' status='canceled' stop='1567003003173'>
+                    <name>Then I should able to select a 5 and i should get minimum temp</name>
+                    <title>Then I should able to select a 5 and i should get minimum temp</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: window was already closed
+                  (Session info: chrome=76.0.3809.100)</message>
+                <stack-trace>no such window: window was already closed
+                  (Session info: chrome=76.0.3809.100)
+                    at endReadableNT (_stream_readable.js:1145:12)
+                    at World.url (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:12:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567003003174' status='broken' stop='1567003003199'>
+            <name>Weather app test</name>
+            <title>Weather app test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567003003174' status='broken' stop='1567003003199'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567003003199' status='canceled' stop='1567003003199'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567003003199' status='canceled' stop='1567003003199'>
+                    <name>When I enter the perth for whetherforecast</name>
+                    <title>When I enter the perth for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567003003199' status='canceled' stop='1567003003200'>
+                    <name>Then I should able to select a 5 and i should get minimum temp</name>
+                    <title>Then I should able to select a 5 and i should get minimum temp</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: window was already closed
+                  (Session info: chrome=76.0.3809.100)</message>
+                <stack-trace>no such window: window was already closed
+                  (Session info: chrome=76.0.3809.100)
+                    at endReadableNT (_stream_readable.js:1145:12)
+                    at World.url (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:12:13)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

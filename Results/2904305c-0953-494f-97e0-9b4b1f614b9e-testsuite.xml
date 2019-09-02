@@ -1,0 +1,202 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1567420189998' stop='1567420436643'>
+    <name>As a weatherForecast service provider, I should be able to fetch the whether details from the application successfully</name>
+    <title>As a weatherForecast service provider, I should be able to fetch the whether details from the application successfully</title>
+    <test-cases>
+        <test-case start='1567420190009' status='passed' stop='1567420201125'>
+            <name>Verify that user can able to hidden the forecast data.</name>
+            <title>Verify that user can able to hidden the forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567420190012' status='passed' stop='1567420190783'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567420190784' status='passed' stop='1567420190826'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567420190826' status='passed' stop='1567420193204'>
+                    <name>When I enter the Aberdeen for weatherForecast</name>
+                    <title>When I enter the Aberdeen for weatherForecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567420193204' status='passed' stop='1567420201124'>
+                    <name>Then User should be able to hidden forecast data "5" "Aberdeen"</name>
+                    <title>Then User should be able to hidden forecast data "5" "Aberdeen"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567420201126' status='passed' stop='1567420234952'>
+            <name>Verify that user can able to hidden the forecast data.</name>
+            <title>Verify that user can able to hidden the forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567420201127' status='passed' stop='1567420201412'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567420201412' status='passed' stop='1567420201437'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567420201437' status='passed' stop='1567420203663'>
+                    <name>When I enter the Dundee for weatherForecast</name>
+                    <title>When I enter the Dundee for weatherForecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567420203663' status='passed' stop='1567420234951'>
+                    <name>Then User should be able to hidden forecast data "5" "Dundee"</name>
+                    <title>Then User should be able to hidden forecast data "5" "Dundee"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567420234952' status='passed' stop='1567420301349'>
+            <name>Verify that user can able to hidden the forecast data.</name>
+            <title>Verify that user can able to hidden the forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567420234953' status='passed' stop='1567420235248'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567420235248' status='passed' stop='1567420235271'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567420235271' status='passed' stop='1567420237591'>
+                    <name>When I enter the Edinburgh for weatherForecast</name>
+                    <title>When I enter the Edinburgh for weatherForecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567420237591' status='passed' stop='1567420301348'>
+                    <name>Then User should be able to hidden forecast data "5" "Edinburgh"</name>
+                    <title>Then User should be able to hidden forecast data "5" "Edinburgh"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567420301349' status='passed' stop='1567420369959'>
+            <name>Verify that user can able to hidden the forecast data.</name>
+            <title>Verify that user can able to hidden the forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567420301349' status='passed' stop='1567420301631'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567420301631' status='passed' stop='1567420301651'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567420301651' status='passed' stop='1567420303858'>
+                    <name>When I enter the Glasgow for weatherForecast</name>
+                    <title>When I enter the Glasgow for weatherForecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567420303859' status='passed' stop='1567420369958'>
+                    <name>Then User should be able to hidden forecast data "5" "Glasgow"</name>
+                    <title>Then User should be able to hidden forecast data "5" "Glasgow"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567420369959' status='passed' stop='1567420436643'>
+            <name>Verify that user can able to hidden the forecast data.</name>
+            <title>Verify that user can able to hidden the forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567420369959' status='passed' stop='1567420370247'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567420370247' status='passed' stop='1567420370268'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567420370268' status='passed' stop='1567420372423'>
+                    <name>When I enter the Perth for weatherForecast</name>
+                    <title>When I enter the Perth for weatherForecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567420372424' status='passed' stop='1567420436642'>
+                    <name>Then User should be able to hidden forecast data "5" "Perth"</name>
+                    <title>Then User should be able to hidden forecast data "5" "Perth"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

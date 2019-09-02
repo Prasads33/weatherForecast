@@ -27,9 +27,12 @@ When(/^I enter the (.*) for whetherforecast$/, function (cityName) {
 });
 
 Then(/^User should able to expand the data and get after every three hourly forecast data"([^"]*)"$/, function (day) {
-           whetherPage.checkItemExpanded(day);
-          whetherPage.threeHourDifference(day);
-
+          console.log('step defination:: ',day)
+           for(let j=1;j<=day;j++) {
+               whetherPage.SelectElement(j)
+               whetherPage.checkItemExpanded(j);
+               whetherPage.threeHourDifference(j);
+           }
  });
 Then(/^User should be able to hidden forecast data "([^"]*)"$/, function (day) {
     whetherPage.checkItemCollapsed(day)

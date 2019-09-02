@@ -4,7 +4,7 @@ Feature: As a whetherForecast service provider, I should be able to fetch the wh
   @BasicScenario
   Scenario Outline: Verify the whetherForecast Application whether user can able to lunch the application for mentioned city
     When I open the url http://localhost:3000/
-    Then I should be able to launch the application with header "Five Day Weather Forecast for"
+    Then I should be able to launch the application with header "Five Day Weather Forecast foreee"
     When I enter the <cityName> for whetherforecast
 
     Examples:
@@ -31,17 +31,16 @@ Feature: As a whetherForecast service provider, I should be able to fetch the wh
   Scenario Outline: Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours.
     When I open the url http://localhost:3000/
     Then I should be able to launch the application with header "Five Day Weather Forecast for"
-    When I enter the stirling for whetherforecast
-    Then I should able to select <day>
+    When I enter the <cityName> for whetherforecast
     Then User should able to expand the data and get after every three hourly forecast data"<day>"
 
     Examples:
-      | day |
-      | 1   |
-      | 2   |
-      | 3   |
-      | 4   |
-      | 5   |
+      | day |cityName|
+      | 5   |Aberdeen|
+      | 5   |Dundee|
+      | 5   |Edinburgh|
+      | 5   |Glasgow|
+      | 5   |Perth|
 
   @HiddenForecastData
   Scenario Outline: Verify that user can able to hidden the forecast data.

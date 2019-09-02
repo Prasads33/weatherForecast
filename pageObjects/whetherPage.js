@@ -93,6 +93,7 @@ class whetherPage {
 
     }
     checkItemExpanded(day){
+        console.log('inside itemExpanded Fun',day)
         browser.pause(800);
       var day1= parseInt(day,10) + 1;
        const style=$(`#root > div > div:nth-child(${day1}) > div.details`).getAttribute('style');
@@ -118,6 +119,7 @@ class whetherPage {
     }
 
     SelectElement(day){
+        console.log('Select Element func',day)
         this.Day.isDisplayed();
         console.log("in select Element::",day);
             console.log('inside LOOP',day)

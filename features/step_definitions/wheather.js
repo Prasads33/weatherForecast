@@ -13,7 +13,7 @@ When(/^I open the url (.*)$/, function (url) {
    //whetherPage.TextEqual();
 
 });
-When(/^I enter the (.*) for whetherforecast$/, function (cityName) {
+When(/^I enter the (.*) for weatherForecast$/, function (cityName) {
      whetherPage.clearSearchTerm();
      whetherPage.enterField(cityName);
     browser.pause(800)
@@ -34,8 +34,10 @@ Then(/^User should able to expand the data and get after every three hourly fore
                whetherPage.threeHourDifference(j);
            }
  });
-Then(/^User should be able to hidden forecast data "([^"]*)"$/, function (day) {
-    whetherPage.checkItemCollapsed(day)
+Then(/^User should be able to hidden forecast data "([^"]*)" "([^"]*)"$/, function (day,cityName) {
+    for (let p=1;p<=day;p++) {
+        whetherPage.checkItemCollapsed(p,cityName)
+    }
     });
 
 // Then(/^user should see 3hourly forcast for that "([^"]*)"$/, function (day) {

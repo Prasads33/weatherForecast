@@ -101,12 +101,14 @@ class whetherPage {
 
         if(!style.includes("max-height: 2000px"))
         {
-            Assert.fail("3 hourly forecast is hidden");
+            assert.fail("3 hourly forecast is hidden");
         }
 
     }
 
-    checkItemCollapsed(day){
+    checkItemCollapsed(day,cityName){
+        $(`[data-test='day-${day}']`).click();
+        browser.pause('500')
         $(`[data-test='day-${day}']`).click();
         browser.pause('900')
          var day1= parseInt(day,10) + 1;
@@ -114,7 +116,7 @@ class whetherPage {
          console.log('style---',style)
         if(style.includes("max-height: 2000px"))
         {
-            Assert.fail("3 hourly forecast is hidden");
+            assert.fail(`WeatherForecast application is not able to hidden data for day ${day} for ${cityName}`);
         }
     }
 

@@ -16,19 +16,14 @@ As Automation tester, Automated all scenarios with WDIO nodejs
 Observations/Reports:
 
 While testing the app, As a tester my observations for application
-1)Without passing any city name expectation is Error Message :("Error retrieving the forecast"), 
-however in actual case scenario by default "Glasgow" string is getting after entering a blank " " string.
-
-
-2)While testing Most dominant wether_conditions 
+1)In Most dominant wether_conditions 
 for Eg:
 City Name : Glasgow
-Expexted : User should be able to get 3 hours summeries weatherForecast data with most dominant condtion of the day.
-          Per Observation User got {Rain, Cloud, Cloud, Cloud} for Tuesday 20 hence the most dominant would be "Cloud"
+Expected result: For Glasgow city most dominat condtion should be "Cloude"
           
-Actual : User is getting "Rain" which is not expected most_dominant conditions.
+Actual Result : User is getting "Rain" which is not expected most_dominant conditions.
 
-3)While testing Most wind speed 
+2)While testing Most wind speed 
 for Eg:
 City Name : Glasgow
 Expexted : User should be able to get 3 hours summeries weatherForecast data with most dominant condtion of the day.

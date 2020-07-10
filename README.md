@@ -4,13 +4,13 @@ Language: NodeJs,JavaScripts
 The Testsuite can be executed from commandline as well as from IDE. 
 ----------------------------------
 Dependencies: 
-Node version : 8.17.0
+Node version : 8.17.0,
 Chromedriver: "79.0.3",
 allure Reporting : npm install -g allure-commandline --save-dev
 ---------------------------------
 Commands:
-Executing featureFiles : npm run test
-For generating report : allure generate ./Results 
+Executing featureFiles : npm run test,
+For generating report : allure generate ./Results,
 For cleaning the report : allure generate ./Results --clean
 
 ----------------------------------------------------------------

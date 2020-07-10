@@ -27,7 +27,7 @@ class whetherPage {
     MaxTemp(){
 
         let countrow=this.RowCount.length;
-        console.log('countrow--',countrow);
+       // console.log('countrow--',countrow);
         let arr = [];
         this.tempFilterContainer.forEach(elem => {
             arr.push(elem.getText())
@@ -35,10 +35,10 @@ class whetherPage {
         return arr;
         //console.log('prasad',arr)
        // let tempCount = this.TempElementCount.length;
-       //  console.log('tempCount',tempCount);
+       // // console.log('tempCount',tempCount);
        //  for(let i=1; i<=tempCount ; i++){
        //      let a =$(`//*[@id='root']/div/div[1]/div[2]/div[${i}]/span[3]/span[1]/text()[1]`).getText();
-       //       console.log('text1--->>',i,'---',a)
+       //      // console.log('text1--->>',i,'---',a)
        //  }
     }
 
@@ -60,11 +60,11 @@ class whetherPage {
         const rainFall = $(`#root > div > div:nth-child(${child}) > div.summary > span:nth-child(5) > span.rainfall`).getText();
         const maxTemp = $(`#root > div > div:nth-child(${child}) > div.summary > span:nth-child(3) > span.max`).getText();
         const minTemp = $(`#root > div > div:nth-child(${child}) > div.summary > span:nth-child(3) > span.rmq-5ea3c959.min`).getText();
-        console.log('condition',condition);
-        console.log('Wind Speed',windSpeed);
-        console.log('Rain Fall',rainFall);
-        console.log('Maximum Temperature',maxTemp);
-        console.log('Minimum Temperature',minTemp);
+       // console.log('condition',condition);
+       // console.log('Wind Speed',windSpeed);
+       // console.log('Rain Fall',rainFall);
+       // console.log('Maximum Temperature',maxTemp);
+       // console.log('Minimum Temperature',minTemp);
         return true;
     }
 
@@ -72,13 +72,13 @@ class whetherPage {
         const child = (parseInt(day, 10) + 1).toString();
        // const valueOfHours = $(`#root > div > div:nth-child(${child}) > div.summary > span:nth-child(4) > span.speed`).getText();
         //const valueOfHoursForecast = valueOfHours.substring(0, valueOfHours.length - 3)
-       // console.log('valueOfHoursForecast', valueOfHoursForecast)
+       //// console.log('valueOfHoursForecast', valueOfHoursForecast)
         const size1 = $$(`#root > div > div:nth-child(${child}) > div.details > div.detail`).length;
-        console.log('sizeeeee', size1);
+       // console.log('sizeeeee', size1);
         var arr = [];
         for (let i = 1; i < size1 + 1; i++) {
             const text = $((`#root > div > div:nth-child(${child}) > div.details > div:nth-child(${i}) > span:nth-child(1) > span`)).getText();
-            console.log('list>>', text);
+           // console.log('list>>', text);
             arr.push(text);
         }
 
@@ -89,11 +89,11 @@ class whetherPage {
             assert.strictEqual(moment(timeDifference,'hmm').format('hh'),'03')
         })
 
-        console.log('array time--->',arr);
+       // console.log('array time--->',arr);
 
     }
     checkItemExpanded(day){
-        console.log('inside itemExpanded Fun',day)
+       // console.log('inside itemExpanded Fun',day)
         browser.pause(800);
       var day1= parseInt(day,10) + 1;
        const style=$(`#root > div > div:nth-child(${day1}) > div.details`).getAttribute('style');
@@ -113,7 +113,7 @@ class whetherPage {
         browser.pause('900')
          var day1= parseInt(day,10) + 1;
          const style=$(`#root > div > div:nth-child(${day1}) > div.details`).getAttribute('style');
-         console.log('style---',style)
+        // console.log('style---',style)
         if(style.includes("max-height: 2000px"))
         {
             assert.fail(`WeatherForecast application is not able to hidden data for day ${day} for ${cityName}`);
@@ -121,10 +121,10 @@ class whetherPage {
     }
 
     SelectElement(day){
-        console.log('Select Element func',day)
+       // console.log('Select Element func',day)
         this.Day.isDisplayed();
         console.log("in select Element::",day);
-            console.log('inside LOOP',day)
+           // console.log('inside LOOP',day)
             $(`[data-test='day-${day}']`).click();
     }
 
@@ -134,7 +134,7 @@ class whetherPage {
        console.log("in select Element::",day);
        for (var i=1;i<=day;i++)
         {
-            console.log('inside LOOP',i)
+           // console.log('inside LOOP',i)
             $(`[data-test='day-${i}']`).click();
             browser.pause(700)
             forecast.DominantConditionWind(i,name)
@@ -148,7 +148,7 @@ class whetherPage {
         console.log("in select Element::",day);
         for (var i=1;i<=day;i++)
         {
-            console.log('inside LOOP',i)
+           // console.log('inside LOOP',i)
             $(`[data-test='day-${i}']`).click();
             browser.pause(700)
             forecast.aggRainfallCheck(i,cityName)
@@ -161,7 +161,7 @@ class whetherPage {
         console.log("in select Element::",day);
         for (var i=1;i<=day;i++)
         {
-            console.log('inside LOOP',i)
+           // console.log('inside LOOP',i)
             $(`[data-test='day-${i}']`).click();
             browser.pause(700)
             forecast.minTempCheck(i,cityName)
@@ -174,7 +174,7 @@ class whetherPage {
         console.log("in select Element::",day);
         for (var i=1;i<=day;i++)
         {
-            console.log('inside LOOP',i)
+           // console.log('inside LOOP',i)
             $(`[data-test='day-${i}']`).click();
             browser.pause(700)
             forecast.maxTempCheck(i,cityName)
@@ -187,10 +187,10 @@ class whetherPage {
         var city=cityName
         this.Day.isDisplayed();
         console.log("in select Element::",day);
-        console.log('cityName',cityName)
+       // console.log('cityName',cityName)
         for (var i=1;i<=day;i++)
         {
-            console.log('inside LOOP',i)
+           // console.log('inside LOOP',i)
             $(`[data-test='day-${i}']`).click();
             browser.pause(500)
             forecast.DominantCondition(i,city)
@@ -219,13 +219,13 @@ class whetherPage {
 
     TextEqual(text){
        let headerText = $('#root > div > h1').getText()
-        console.log('headerText----', headerText)
+       // console.log('headerText----', headerText)
         assert.strictEqual(headerText,text,'You have landed in wrong page')
     }
 
     TextEqual2(text){
         let headerText = $('#root > div > div').getText()
-        console.log('headerText----', headerText)
+       // console.log('headerText----', headerText)
         assert.strictEqual(headerText,text,'You have landed in wrong page')
     }
 

@@ -8,7 +8,7 @@ import whetherPage from '../../pageObjects/whetherPage'
 
 
 When(/^I open the url (.*)$/, function (url) {
-   console.log('url::',url)
+  // console.log('url::',url)
     browser.url(url);
    //whetherPage.TextEqual();
 
@@ -22,12 +22,12 @@ When(/^I enter the (.*) for weatherForecast$/, function (cityName) {
 
  Then(/^I should able to hide forecast data$/, function () {
      whetherPage.hideWebElement();
-    console.log('Element Hide');
+   // console.log('Element Hide');
 
 });
 
 Then(/^User should able to expand the data and get after every three hourly forecast data"([^"]*)"$/, function (day) {
-          console.log('step defination:: ',day)
+         // console.log('step defination:: ',day)
            for(let j=1;j<=day;j++) {
                whetherPage.SelectElement(j)
                whetherPage.checkItemExpanded(j);
@@ -59,7 +59,7 @@ Then(/^User should be able to hidden forecast data "([^"]*)" "([^"]*)"$/, functi
 
     Then(/^I should able to get most dominant wind conditions for (.*) among (.*) days$/, function (cityName,day) {
         whetherPage.windCondition(day,cityName);
-        console.log('Element Click')
+       // console.log('Element Click')
     });
 
     Then(/^I should able to get most dominant weather conditions for (.*) among (.*) days$/, function (cityName,day) {
